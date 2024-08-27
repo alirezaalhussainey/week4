@@ -1,0 +1,46 @@
+/* Navbar styling */
+.navbar {
+    margin-bottom: 20px; /* Adds some space below the navbar */
+  }
+  
+  .navbar-nav {
+    display: flex;
+    flex-direction: row; /* Aligns items horizontally */
+    align-items: center; /* Centers items vertically */
+    padding-left: 0; /* Removes padding on the left */
+    margin-bottom: 0; /* Removes bottom margin */
+  }
+  
+  .nav-item {
+    margin-left: 15px; /* Adds space between items */
+    list-style: none; /* Removes default list styling */
+  }
+  
+  .nav-item::before {
+    content: ""; /* Removes any default content */
+    display: none; /* Hides any bullet points or default dots */
+  }
+  
+  .nav-link {
+    color: #000; /* Black color for links */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 16px;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    color: #fff; /* White color for active link */
+    background-color: #000; /* Black background for active link */
+    padding: 5px 10px; /* Adds some padding around the active link */
+    border-radius: 4px; /* Rounds the corners of the active link */
+  }
+  
+  .nav-link:hover {
+    color: #fff; /* White color on hover */
+    background-color: #333; /* Dark gray background on hover */
+  }
+  
+  .navbar-light .navbar-brand {
+    font-weight: bold; /* Makes the brand text bold */
+  }
+  

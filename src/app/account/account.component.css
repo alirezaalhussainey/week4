@@ -1,0 +1,19 @@
+/* src/app/account/account.component.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    justify-content: center; /* Centers content vertically */
+    min-height: 80vh; /* Ensures the container takes up enough height to center content */
+    text-align: center; /* Centers text inside the container */
+  }
+  
+  h2 {
+    margin-bottom: 20px; /* Adds space below the heading */
+  }
+  
+  .img-fluid {
+    max-width: 100%; /* Ensures the image scales with the container width */
+    height: auto; /* Maintains the image's aspect ratio */
+  }
+  
